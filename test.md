@@ -6,7 +6,7 @@
 
 ## 📖 À propos
 
-Ce repository documente mon parcours d'apprentissage du cours **CS50x** de Harvard, une introduction complète à l'informatique suivie par plus d'un million d'étudiants dans le monde. Ce cours gratuit via edX couvre les fondamentaux de la programmation, des algorithmes et du développement web.
+Ce repository documente mon parcours d'apprentissage du célèbre cours **CS50x** de Harvard, une introduction complète à l'informatique suivie par plus d'un million d'étudiants dans le monde. Ce cours gratuit via edX couvre les fondamentaux de la programmation, des algorithmes et du développement web.
 
 ### 🎯 Mes objectifs
 - Maîtriser les bases du langage **C** et de la gestion mémoire
@@ -58,7 +58,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | Semaine | Sujet | Exercices réalisés | Statut |
 |---------|-------|-------------------|--------|
 | **Week 0** | Scratch | Projet Scratch (non inclus dans le repo) | ✅ Terminé |
-| **Week 1** | Langage C | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c) | ✅ Terminé |
+| **Week 1** | Langage C | `hello.c`, `mario.c`, `credit.c` | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
@@ -89,6 +89,34 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Hello** | Programme interactif de salutation personnalisée | [`hello.c`](week1/hello.c) | ⭐ |
 | **Mario** | Génération de pyramides adjacentes avec validation d'entrée | [`mario.c`](week1/mario.c) | ⭐⭐ |
 | **Credit** | Validation de cartes de crédit avec algorithme de Luhn | [`credit.c`](week1/credit.c) | ⭐⭐⭐ |
+
+### Week 2 - Arrays
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/2/](https://cs50.harvard.edu/x/2025/psets/2/)
+
+| Exercice | Description | Fichier | Difficulté |
+|----------|-------------|---------|------------|
+| **Scrabble** | Calcul de scores Scrabble et détermination du gagnant | `scrabble.c` | ⭐⭐ |
+| **Readability** | Analyse de lisibilité avec l'indice Coleman-Liau | `readability.c` | ⭐⭐ |
+| **Substitution** | Chiffrement par substitution avec validation de clé | `substitution.c` | ⭐⭐⭐ |
+
+### Week 3 - Algorithmes
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/3/](https://cs50.harvard.edu/x/2025/psets/3/)
+
+| Exercice | Description | Fichier | Difficulté |
+|----------|-------------|---------|------------|
+| **Sort** | Analyse d'algorithmes de tri par observation | `sort/` | ⭐⭐ |
+| **Collatz** | Implémentation récursive de la conjecture de Collatz | `collatz.c` | ⭐⭐ |
+| **Plurality** | Système de vote majoritaire simple | `plurality.c` | ⭐⭐ |
+| **Runoff** | Vote préférentiel avec éliminations successives | `runoff.c` | ⭐⭐⭐ |
+
+### Week 4 - Mémoire
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/4/](https://cs50.harvard.edu/x/2025/psets/4/)
+
+| Exercice | Description | Fichier | Difficulté |
+|----------|-------------|---------|------------|
+| **Filter** | Application de filtres sur images BMP | `filter-less.c` | ⭐⭐⭐ |
+| **Recover** | Récupération de fichiers JPEG depuis une carte mémoire | `recover.c` | ⭐⭐⭐ |
+| **Volume** | Modification du volume de fichiers audio WAV | `volume.c` | ⭐⭐ |
 
 ## 🔗 Ressources
 
