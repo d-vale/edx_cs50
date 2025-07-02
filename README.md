@@ -64,7 +64,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 | Semaine | Sujet | Prévision |
 |---------|-------|-----------|
-| **Week 2** | Arrays | À venir |
+| **Week 2** | Arrays | En cours |
 | **Week 3** | Algorithmes | À venir |
 | **Week 4** | Mémoire | À venir |
 | **Week 5** | Structures de données | À venir |
