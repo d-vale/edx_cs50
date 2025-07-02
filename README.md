@@ -57,7 +57,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 | Semaine | Sujet | Exercices réalisés | Statut |
 |---------|-------|-------------------|--------|
-| **Week 1** | Langage C | `hello.c`, `mario.c`, `credit.c` | ✅ Terminé |
+| **Week 1** | Langage C | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c) | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
