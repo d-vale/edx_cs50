@@ -2,7 +2,7 @@
 
 [![CS50x](https://img.shields.io/badge/CS50x-Harvard-crimson)](https://cs50.harvard.edu/x/2025/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-[![Progress](https://img.shields.io/badge/Progress-18%25-orange)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-30%25-orange)](#progression)
 
 ## 📖 À propos
 
@@ -59,13 +59,13 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 |---------|-------|-------------------|--------|
 | **Week 0** | Scratch | Projet Scratch (non inclus dans le repo) | ✅ Terminé |
 | **Week 1** | Langage C | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c) | ✅ Terminé |
+| **Week 2** | Arrays | [`scrabble.c`](week2/scrabble.c), [`readability.c`](week2/readability.c), [`substitution.c`](week2/substitution.c) | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
 | Semaine | Sujet | Prévision |
 |---------|-------|-----------|
-| **Week 2** | Arrays | En cours |
-| **Week 3** | Algorithmes | À venir |
+| **Week 3** | Algorithmes | En cours |
 | **Week 4** | Mémoire | À venir |
 | **Week 5** | Structures de données | À venir |
 | **Week 6** | Python | À venir |
@@ -90,6 +90,15 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Mario** | Génération de pyramides adjacentes avec validation d'entrée | [`mario.c`](week1/mario.c) | ⭐⭐ |
 | **Credit** | Validation de cartes de crédit avec algorithme de Luhn | [`credit.c`](week1/credit.c) | ⭐⭐⭐ |
 
+### Week 2 - Arrays
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/2/](https://cs50.harvard.edu/x/2025/psets/2/)
+
+| Exercice | Description | Fichier | Difficulté |
+|----------|-------------|---------|------------|
+| **Scrabble** | Calcul des points d'un mot selon les règles du Scrabble | [`scrabble.c`](week2/scrabble.c) | ⭐ |
+| **Readability** | Calcul du niveau de lecture d'un texte avec l'index Coleman-Liau | [`readability.c`](week2/readability.c) | ⭐⭐ |
+| **Substitution** | Chiffrement par substitution avec validation complète de clé | [`substitution.c`](week2/substitution.c) | ⭐⭐⭐ |
+
 ## 🔗 Ressources
 
 - [**Cours CS50x 2025**](https://cs50.harvard.edu/x/2025/) - Site officiel
@@ -100,7 +109,9 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 ## 💡 Compétences développées
 
 - **Programmation en C** : Syntaxe, pointeurs, gestion mémoire
+- **Manipulation d'arrays** : Chaînes de caractères, arguments de ligne de commande
 - **Algorithmes** : Tri, recherche, analyse de complexité
+- **Cryptographie basique** : Chiffrement par substitution
 - **Structures de données** : Listes, arbres, tables de hachage
 - **Développement web** : Frontend et backend complets
 - **Bases de données** : Conception et requêtes SQL
@@ -108,4 +119,4 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 ---
 
-*Dernière mise à jour : Juillet 2025*
+*Dernière mise à jour : Août 2025*
