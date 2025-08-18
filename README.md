@@ -2,7 +2,7 @@
 
 [![CS50x](https://img.shields.io/badge/CS50x-Harvard-crimson)](https://cs50.harvard.edu/x/2025/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-[![Progress](https://img.shields.io/badge/Progress-30%25-orange)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-40%25-orange)](#progression)
 
 ## 📖 À propos
 
@@ -60,13 +60,13 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Week 0** | Scratch | Projet Scratch (non inclus dans le repo) | ✅ Terminé |
 | **Week 1** | Langage C | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c) | ✅ Terminé |
 | **Week 2** | Arrays | [`scrabble.c`](week2/scrabble.c), [`readability.c`](week2/readability.c), [`substitution.c`](week2/substitution.c) | ✅ Terminé |
+| **Week 3** | Algorithmes | [`sort/answers.txt`](week3/sort/answers.txt), [`plurality.c`](week3/plurality.c), [`runoff.c`](week3/runoff.c) | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
 | Semaine | Sujet | Prévision |
 |---------|-------|-----------|
-| **Week 3** | Algorithmes | En cours |
-| **Week 4** | Mémoire | À venir |
+| **Week 4** | Mémoire | En cours |
 | **Week 5** | Structures de données | À venir |
 | **Week 6** | Python | À venir |
 | **Week 7** | SQL | À venir |
@@ -99,6 +99,15 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Readability** | Calcul du niveau de lecture d'un texte avec l'index Coleman-Liau | [`readability.c`](week2/readability.c) | ⭐⭐ |
 | **Substitution** | Chiffrement par substitution avec validation complète de clé | [`substitution.c`](week2/substitution.c) | ⭐⭐⭐ |
 
+### Week 3 - Algorithmes
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/3/](https://cs50.harvard.edu/x/2025/psets/3/)
+
+| Exercice | Description | Fichier | Difficulté |
+|----------|-------------|---------|------------|
+| **Sort** | Analyse et identification d'algorithmes de tri par leurs performances | [`sort/answers.txt`](week3/sort/answers.txt) | ⭐ |
+| **Plurality** | Système de vote majoritaire simple avec structures de données | [`plurality.c`](week3/plurality.c) | ⭐⭐ |
+| **Runoff** | Système de vote à tours multiples avec élimination progressive | [`runoff.c`](week3/runoff.c) | ⭐⭐⭐ |
+
 ## 🔗 Ressources
 
 - [**Cours CS50x 2025**](https://cs50.harvard.edu/x/2025/) - Site officiel
@@ -108,14 +117,23 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 ## 💡 Compétences développées
 
+### Programmation fondamentale
 - **Programmation en C** : Syntaxe, pointeurs, gestion mémoire
 - **Manipulation d'arrays** : Chaînes de caractères, arguments de ligne de commande
-- **Algorithmes** : Tri, recherche, analyse de complexité
+- **Structures de données** : `struct`, tableaux multidimensionnels
 - **Cryptographie basique** : Chiffrement par substitution
-- **Structures de données** : Listes, arbres, tables de hachage
-- **Développement web** : Frontend et backend complets
-- **Bases de données** : Conception et requêtes SQL
-- **Résolution de problèmes** : Approche méthodique et debugging
+
+### Algorithmes et complexité
+- **Algorithmes de tri** : Bubble sort, selection sort, merge sort
+- **Analyse de complexité** : Notation Big O, temps d'exécution
+- **Optimisation** : Détection de tri précoce, efficacité algorithmique
+- **Systèmes de vote** : Logique électorale, algorithmes de décision
+
+### Développement logiciel
+- **Validation d'entrées** : Vérification robuste des données utilisateur
+- **Modularité** : Fonctions spécialisées, séparation des responsabilités
+- **Debugging** : Analyse de performance, identification d'algorithmes
+- **Résolution de problèmes** : Approche méthodique et structurée
 
 ---
 
