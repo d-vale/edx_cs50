@@ -1,0 +1,11 @@
+sort1 uses: Bubble
+
+How do you know?: When testing with sorted50000.txt, sort1 performed nearly as fast as sort2 (which appears to be the quickest algorithm). This suggests sort1 implements bubble sort with an optimization that detects when the array is already sorted and terminates early after one pass without any swaps, resulting in O(n) performance on sorted data.
+
+sort2 uses: Merge
+
+How do you know?: Sort2 consistently shows the fastest execution times across all input types, and its performance remains stable whether processing sorted or unsorted data. This consistent O(n log n) time complexity pattern is the hallmark of merge sort algorithm.
+
+sort3 uses: Selection
+
+How do you know?: Sort3 takes approximately the same amount of time to process both sorted50000.txt and random50000.txt files. This indicates a quadratic time complexity O(n²) since selection sort always scans through all remaining elements to find the minimum, regardless of input order.
