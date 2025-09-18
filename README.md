@@ -13,8 +13,7 @@ Ce repository documente mon parcours d'apprentissage du cours **CS50x** de Harva
 - Maîtriser les bases du langage **C** et de la gestion mémoire
 - Apprendre **Python** et ses applications pratiques
 - Comprendre les structures de données et algorithmes fondamentaux
-- Découvrir les technologies web (HTML, CSS, JavaScript, Flask)
-- Renforcer mes compétences en bases de données avec **SQL**
+- Renforcer mes compétences en bases de données avec **SQL** et des technologies web (HTML, CSS, JavaScript, Flask)
 - Préparer mon Master en Computer Science
 
 ## 📚 Programme du cours
