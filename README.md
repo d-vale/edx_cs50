@@ -2,7 +2,7 @@
 
 [![CS50x](https://img.shields.io/badge/CS50x-Harvard-crimson)](https://cs50.harvard.edu/x/2025/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-[![Progress](https://img.shields.io/badge/Progress-50%25-orange)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-60%25-orange)](#progression)
 
 ## 📖 À propos
 
@@ -67,22 +67,22 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 ### ✅ Semaines terminées
 
-| Semaine    | Sujet       | Exercices réalisés                                                                                                                                 | Statut     |
-| ---------- | ----------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| **Week 0** | Scratch     | Projet Scratch (non inclus dans le repo)                                                                                                           | ✅ Terminé |
-| **Week 1** | Langage C   | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c)                                                               | ✅ Terminé |
-| **Week 2** | Arrays      | [`scrabble.c`](week2/scrabble.c), [`readability.c`](week2/readability.c), [`substitution.c`](week2/substitution.c)                                 | ✅ Terminé |
-| **Week 3** | Algorithmes | [`sort/answers.txt`](week3/sort/answers.txt), [`plurality.c`](week3/plurality.c), [`runoff.c`](week3/runoff.c)                                     | ✅ Terminé |
-| **Week 4** | Mémoire     | [`filter-less/helpers.c`](week4/filter-less/helpers.c), [`recover/recover.c`](week4/recover/recover.c), [`volume/volume.c`](week4/volume/volume.c) | ✅ Terminé |
+| Semaine    | Sujet                 | Exercices réalisés                                                                                                                                 | Statut     |
+| ---------- | --------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| **Week 0** | Scratch               | Projet Scratch (non inclus dans le repo)                                                                                                           | ✅ Terminé |
+| **Week 1** | Langage C             | [`hello.c`](week1/hello.c), [`mario.c`](week1/mario.c), [`credit.c`](week1/credit.c)                                                               | ✅ Terminé |
+| **Week 2** | Arrays                | [`scrabble.c`](week2/scrabble.c), [`readability.c`](week2/readability.c), [`substitution.c`](week2/substitution.c)                                 | ✅ Terminé |
+| **Week 3** | Algorithmes           | [`sort/answers.txt`](week3/sort/answers.txt), [`plurality.c`](week3/plurality.c), [`runoff.c`](week3/runoff.c)                                     | ✅ Terminé |
+| **Week 4** | Mémoire               | [`filter-less/helpers.c`](week4/filter-less/helpers.c), [`recover/recover.c`](week4/recover/recover.c), [`volume/volume.c`](week4/volume/volume.c) | ✅ Terminé |
+| **Week 5** | Structures de données | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c), [`speller/dictionary.c`](week5/speller/dictionary.c)                               | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
-| Semaine       | Sujet                 | Prévision |
-| ------------- | --------------------- | --------- |
-| **Week 5**    | Structures de données | En cours  |
-| **Week 6**    | Python                | À venir   |
-| **Week 7**    | SQL                   | À venir   |
-| **Week 8-10** | Web & Projet final    | À venir   |
+| Semaine       | Sujet              | Prévision |
+| ------------- | ------------------ | --------- |
+| **Week 6**    | Python             | En cours  |
+| **Week 7**    | SQL                | À venir   |
+| **Week 8-10** | Web & Projet final | À venir   |
 
 ## 🛠️ Détail des exercices
 
@@ -130,9 +130,18 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 | Exercice        | Description                                                             | Fichier                                                | Difficulté |
 | --------------- | ----------------------------------------------------------------------- | ------------------------------------------------------ | ---------- |
-| **Volume**      | Modification du volume d'un fichier audio WAV avec manipulation binaire | [`volume/volume.c`](week4/volume/volume.c)             | ⭐         |
-| **Filter-less** | Application de filtres d'images (grayscale, sepia, reflect, blur)       | [`filter-less/helpers.c`](week4/filter-less/helpers.c) | ⭐⭐       |
+| **Volume**      | Modification du volume d'un fichier audio WAV avec manipulation binaire | [`volume/volume.c`](week4/volume/volume.c)             | ⭐⭐⭐     |
+| **Filter-less** | Application de filtres d'images (grayscale, sepia, reflect, blur)       | [`filter-less/helpers.c`](week4/filter-less/helpers.c) | ⭐⭐⭐     |
 | **Recover**     | Récupération de fichiers JPEG supprimés depuis une carte mémoire        | [`recover/recover.c`](week4/recover/recover.c)         | ⭐⭐⭐     |
+
+### Week 5 - Structures de données
+
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/5/](https://cs50.harvard.edu/x/2025/psets/5/)
+
+| Exercice        | Description                                                                    | Fichier                                                        | Difficulté |
+| --------------- | ------------------------------------------------------------------------------ | -------------------------------------------------------------- | ---------- |
+| **Inheritance** | Simulation de l'hérédité génétique avec arbres familiaux et allocation mémoire | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c) | ⭐⭐⭐     |
+| **Speller**     | Correcteur orthographique avec table de hachage optimisée                      | [`speller/dictionary.c`](week5/speller/dictionary.c)           | ⭐⭐⭐     |
 
 ## 🔗 Ressources
 
@@ -147,29 +156,36 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 - **Programmation en C** : Syntaxe, pointeurs, gestion mémoire
 - **Manipulation d'arrays** : Chaînes de caractères, arguments de ligne de commande
-- **Structures de données** : `struct`, tableaux multidimensionnels
+- **Structures de données** : `struct`, tableaux multidimensionnels, listes chaînées, tables de hachage
 - **Cryptographie basique** : Chiffrement par substitution
 
 ### Algorithmes et complexité
 
 - **Algorithmes de tri** : Bubble sort, selection sort, merge sort
 - **Analyse de complexité** : Notation Big O, temps d'exécution
-- **Optimisation** : Détection de tri précoce, efficacité algorithmique
+- **Optimisation** : Détection de tri précoce, efficacité algorithmique, fonctions de hachage
 - **Systèmes de vote** : Logique électorale, algorithmes de décision
 
 ### Gestion de la mémoire et manipulation de fichiers
 
-- **Pointeurs et mémoire** : Allocation dynamique, heap/stack
+- **Pointeurs et mémoire** : Allocation dynamique, heap/stack, structures récursives
 - **Manipulation de fichiers binaires** : Lecture/écriture de données structurées
 - **Traitement d'images** : Formats BMP, manipulation de pixels, filtres graphiques
 - **Forensique numérique** : Récupération de données, analyse de signatures de fichiers
+
+### Structures de données avancées
+
+- **Listes chaînées** : Insertion, suppression, traversée de listes dynamiques
+- **Tables de hachage** : Fonctions de hachage, gestion des collisions, optimisation des performances
+- **Arbres de données** : Structures hiérarchiques, récursivité, héritage génétique
+- **Gestion mémoire avancée** : Libération récursive, prévention des fuites mémoire
 
 ### Développement logiciel
 
 - **Validation d'entrées** : Vérification robuste des données utilisateur
 - **Modularité** : Fonctions spécialisées, séparation des responsabilités
-- **Debugging** : Analyse de performance, identification d'algorithmes
-- **Résolution de problèmes** : Approche méthodique et structurée
+- **Debugging** : Analyse de performance, identification d'algorithmes, optimisation
+- **Résolution de problèmes** : Approche méthodique et structurée, pensée algorithmique
 
 ---
 
