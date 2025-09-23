@@ -2,7 +2,7 @@
 
 [![CS50x](https://img.shields.io/badge/CS50x-Harvard-crimson)](https://cs50.harvard.edu/x/2025/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-[![Progress](https://img.shields.io/badge/Progress-60%25-orange)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-75%25-green)](#progression)
 
 ## 📖 À propos
 
@@ -74,12 +74,12 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Week 3** | Algorithmes           | [`sort/answers.txt`](week3/sort/answers.txt), [`plurality.c`](week3/plurality.c), [`runoff.c`](week3/runoff.c)                                     | ✅ Terminé |
 | **Week 4** | Mémoire               | [`filter-less/helpers.c`](week4/filter-less/helpers.c), [`recover/recover.c`](week4/recover/recover.c), [`volume/volume.c`](week4/volume/volume.c) | ✅ Terminé |
 | **Week 5** | Structures de données | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c), [`speller/dictionary.c`](week5/speller/dictionary.c)                               | ✅ Terminé |
+| **Week 6** | Python                | [`sentimental-hello/hello.py`](week6/sentimental-hello/hello.py), [`sentimental-mario-more/mario.py`](week6/sentimental-mario-more/mario.py), [`sentimental-credit/credit.py`](week6/sentimental-credit/credit.py), [`sentimental-readability/readability.py`](week6/sentimental-readability/readability.py), [`dna/dna.py`](week6/dna/dna.py) | ✅ Terminé |
 
 ### 🔄 En cours / À venir
 
 | Semaine       | Sujet              | Prévision |
 | ------------- | ------------------ | --------- |
-| **Week 6**    | Python             | En cours  |
 | **Week 7**    | SQL                | À venir   |
 | **Week 8-10** | Web & Projet final | À venir   |
 
@@ -142,6 +142,18 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Inheritance** | Simulation de l'hérédité génétique avec arbres familiaux et allocation mémoire | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c) | ⭐⭐⭐     |
 | **Speller**     | Correcteur orthographique avec table de hachage optimisée                      | [`speller/dictionary.c`](week5/speller/dictionary.c)           | ⭐⭐⭐     |
 
+### Week 6 - Python
+
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/6/](https://cs50.harvard.edu/x/2025/psets/6/)
+
+| Exercice              | Description                                                              | Fichier                                                                     | Difficulté |
+| --------------------- | ------------------------------------------------------------------------ | --------------------------------------------------------------------------- | ---------- |
+| **Hello (Python)**   | Version Python du programme de salutation avec syntaxe simplifiée        | [`sentimental-hello/hello.py`](week6/sentimental-hello/hello.py)           | ⭐         |
+| **Mario (Python)**   | Pyramides adjacentes en Python avec validation d'entrée et fonctions     | [`sentimental-mario-more/mario.py`](week6/sentimental-mario-more/mario.py) | ⭐⭐       |
+| **Credit (Python)**  | Validation de cartes de crédit en Python avec algorithme de Luhn          | [`sentimental-credit/credit.py`](week6/sentimental-credit/credit.py)       | ⭐⭐       |
+| **Readability**      | Index de lisibilité Coleman-Liau en Python avec manipulation de chaînes   | [`sentimental-readability/readability.py`](week6/sentimental-readability/readability.py) | ⭐⭐       |
+| **DNA**              | Profilage génétique avec séquences STR et analyse de fichiers CSV         | [`dna/dna.py`](week6/dna/dna.py)                                           | ⭐⭐⭐     |
+
 ## 🔗 Ressources
 
 - [**Cours CS50x 2025**](https://cs50.harvard.edu/x/2025/) - Site officiel
@@ -154,6 +166,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 ### Programmation fondamentale
 
 - **Programmation en C** : Syntaxe, pointeurs, gestion mémoire
+- **Programmation en Python** : Syntaxe haut niveau, gestion des types dynamiques, fonctions
 - **Manipulation d'arrays** : Chaînes de caractères, arguments de ligne de commande
 - **Structures de données** : `struct`, tableaux multidimensionnels, listes chaînées, tables de hachage
 - **Cryptographie basique** : Chiffrement par substitution
@@ -168,7 +181,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 ### Gestion de la mémoire et manipulation de fichiers
 
 - **Pointeurs et mémoire** : Allocation dynamique, heap/stack, structures récursives
-- **Manipulation de fichiers binaires** : Lecture/écriture de données structurées
+- **Manipulation de fichiers** : Lecture/écriture CSV, parsing de données
 - **Traitement d'images** : Formats BMP, manipulation de pixels, filtres graphiques
 - **Forensique numérique** : Récupération de données, analyse de signatures de fichiers
 
@@ -179,12 +192,14 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 - **Arbres de données** : Structures hiérarchiques, récursivité, héritage génétique
 - **Gestion mémoire avancée** : Libération récursive, prévention des fuites mémoire
 
-### Développement logiciel
+### Développement logiciel et Python
 
-- **Validation d'entrées** : Vérification robuste des données utilisateur
-- **Modularité** : Fonctions spécialisées, séparation des responsabilités
-- **Debugging** : Analyse de performance, identification d'algorithmes, optimisation
-- **Résolution de problèmes** : Approche méthodique et structurée, pensée algorithmique
+- **Transition C vers Python** : Migration de code, adaptation des algorithmes
+- **Validation d'entrées** : Vérification robuste des données utilisateur en Python
+- **Modularité Python** : Fonctions spécialisées, importation de modules
+- **Parsing de données** : Analyse de fichiers CSV, manipulation de chaînes avancée
+- **Profilage génétique** : Algorithmes de correspondance, analyse STR
+- **Debugging Python** : Gestion d'erreurs, optimisation de performance
 
 ---
 
