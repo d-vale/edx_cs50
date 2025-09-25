@@ -75,7 +75,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Week 4** | Mémoire               | [`filter-less/helpers.c`](week4/filter-less/helpers.c), [`recover/recover.c`](week4/recover/recover.c), [`volume/volume.c`](week4/volume/volume.c) | ✅ Terminé |
 | **Week 5** | Structures de données | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c), [`speller/dictionary.c`](week5/speller/dictionary.c)                               | ✅ Terminé |
 | **Week 6** | Python                | [`sentimental-hello/hello.py`](week6/sentimental-hello/hello.py), [`sentimental-mario-more/mario.py`](week6/sentimental-mario-more/mario.py), [`sentimental-credit/credit.py`](week6/sentimental-credit/credit.py), [`sentimental-readability/readability.py`](week6/sentimental-readability/readability.py), [`dna/dna.py`](week6/dna/dna.py) | ✅ Terminé |
-| **Week 7** | SQL                   | [`songs/1.sql`](week7/songs/1.sql), [`songs/2.sql`](week7/songs/2.sql), [`songs/3.sql`](week7/songs/3.sql), [`songs/4.sql`](week7/songs/4.sql), [`songs/5.sql`](week7/songs/5.sql), [`songs/6.sql`](week7/songs/6.sql), [`songs/7.sql`](week7/songs/7.sql), [`songs/8.sql`](week7/songs/8.sql), [`movies/1.sql`](week7/movies/1.sql), [...](week7/movies/) | ✅ Terminé |
+| **Week 7** | SQL                   | [`songs/`](week7/songs/), [`movies/`](week7/movies/), [`fiftyville/`](week7/fiftyville/) | ✅ Terminé |
 
 ## 🛠️ Détail des exercices
 
@@ -152,10 +152,11 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 
 **📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/7/](https://cs50.harvard.edu/x/2025/psets/7/)
 
-| Exercice   | Description                                                                    | Fichiers                                                                                                                                                                                                      | Difficulté |
-| ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-| **Songs**  | Requêtes SQL sur une base de données Spotify (top songs, artists, etc.)       | [`1.sql`](week7/songs/1.sql), [`2.sql`](week7/songs/2.sql), [`3.sql`](week7/songs/3.sql), [`4.sql`](week7/songs/4.sql), [`5.sql`](week7/songs/5.sql), [`6.sql`](week7/songs/6.sql), [`7.sql`](week7/songs/7.sql), [`8.sql`](week7/songs/8.sql) | ⭐⭐       |
-| **Movies** | Requêtes complexes sur une base de données IMDb (films, acteurs, ratings)     | [`1.sql`](week7/movies/1.sql), [`2.sql`](week7/movies/2.sql), [`3.sql`](week7/movies/3.sql), [`4.sql`](week7/movies/4.sql), [`5.sql`](week7/movies/5.sql), [`6.sql`](week7/movies/6.sql), [`7.sql`](week7/movies/7.sql), [`8.sql`](week7/movies/8.sql), [`9.sql`](week7/movies/9.sql), [`10.sql`](week7/movies/10.sql), [`11.sql`](week7/movies/11.sql), [`12.sql`](week7/movies/12.sql), [`13.sql`](week7/movies/13.sql) | ⭐⭐⭐     |
+| Exercice     | Description                                                                    | Fichier                           | Difficulté |
+| ------------ | ------------------------------------------------------------------------------ | --------------------------------- | ---------- |
+| **Songs**    | Requêtes SQL sur une base de données Spotify (top songs, artists, etc.)       | [`songs/`](week7/songs/)          | ⭐⭐       |
+| **Movies**   | Requêtes complexes sur une base de données IMDb (films, acteurs, ratings)     | [`movies/`](week7/movies/)        | ⭐⭐⭐     |
+| **Fiftyville** | Enquête de détective utilisant SQL pour résoudre un mystère                 | [`fiftyville/`](week7/fiftyville/) | ⭐⭐⭐     |
 
 ## 🔗 Ressources
 
