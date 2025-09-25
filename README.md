@@ -2,7 +2,7 @@
 
 [![CS50x](https://img.shields.io/badge/CS50x-Harvard-crimson)](https://cs50.harvard.edu/x/2025/)
 [![edX](https://img.shields.io/badge/Platform-edX-blue)](https://learning.edx.org/course/course-v1:HarvardX+CS50+X/home)
-[![Progress](https://img.shields.io/badge/Progress-75%25-green)](#progression)
+[![Progress](https://img.shields.io/badge/Progress-80%25-green)](#progression)
 
 ## 📖 À propos
 
@@ -75,13 +75,7 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Week 4** | Mémoire               | [`filter-less/helpers.c`](week4/filter-less/helpers.c), [`recover/recover.c`](week4/recover/recover.c), [`volume/volume.c`](week4/volume/volume.c) | ✅ Terminé |
 | **Week 5** | Structures de données | [`inheritance/inheritance.c`](week5/inheritance/inheritance.c), [`speller/dictionary.c`](week5/speller/dictionary.c)                               | ✅ Terminé |
 | **Week 6** | Python                | [`sentimental-hello/hello.py`](week6/sentimental-hello/hello.py), [`sentimental-mario-more/mario.py`](week6/sentimental-mario-more/mario.py), [`sentimental-credit/credit.py`](week6/sentimental-credit/credit.py), [`sentimental-readability/readability.py`](week6/sentimental-readability/readability.py), [`dna/dna.py`](week6/dna/dna.py) | ✅ Terminé |
-
-### 🔄 En cours / À venir
-
-| Semaine       | Sujet              | Prévision |
-| ------------- | ------------------ | --------- |
-| **Week 7**    | SQL                | À venir   |
-| **Week 8-10** | Web & Projet final | À venir   |
+| **Week 7** | SQL                   | [`songs/1.sql`](week7/songs/1.sql), [`songs/2.sql`](week7/songs/2.sql), [`songs/3.sql`](week7/songs/3.sql), [`songs/4.sql`](week7/songs/4.sql), [`songs/5.sql`](week7/songs/5.sql), [`songs/6.sql`](week7/songs/6.sql), [`songs/7.sql`](week7/songs/7.sql), [`songs/8.sql`](week7/songs/8.sql), [`movies/1.sql`](week7/movies/1.sql), [...](week7/movies/) | ✅ Terminé |
 
 ## 🛠️ Détail des exercices
 
@@ -154,6 +148,15 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 | **Readability**      | Index de lisibilité Coleman-Liau en Python avec manipulation de chaînes   | [`sentimental-readability/readability.py`](week6/sentimental-readability/readability.py) | ⭐⭐       |
 | **DNA**              | Profilage génétique avec séquences STR et analyse de fichiers CSV         | [`dna/dna.py`](week6/dna/dna.py)                                           | ⭐⭐⭐     |
 
+### Week 7 - SQL
+
+**📝 Problem Set :** [https://cs50.harvard.edu/x/2025/psets/7/](https://cs50.harvard.edu/x/2025/psets/7/)
+
+| Exercice   | Description                                                                    | Fichiers                                                                                                                                                                                                      | Difficulté |
+| ---------- | ------------------------------------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
+| **Songs**  | Requêtes SQL sur une base de données Spotify (top songs, artists, etc.)       | [`1.sql`](week7/songs/1.sql), [`2.sql`](week7/songs/2.sql), [`3.sql`](week7/songs/3.sql), [`4.sql`](week7/songs/4.sql), [`5.sql`](week7/songs/5.sql), [`6.sql`](week7/songs/6.sql), [`7.sql`](week7/songs/7.sql), [`8.sql`](week7/songs/8.sql) | ⭐⭐       |
+| **Movies** | Requêtes complexes sur une base de données IMDb (films, acteurs, ratings)     | [`1.sql`](week7/movies/1.sql), [`2.sql`](week7/movies/2.sql), [`3.sql`](week7/movies/3.sql), [`4.sql`](week7/movies/4.sql), [`5.sql`](week7/movies/5.sql), [`6.sql`](week7/movies/6.sql), [`7.sql`](week7/movies/7.sql), [`8.sql`](week7/movies/8.sql), [`9.sql`](week7/movies/9.sql), [`10.sql`](week7/movies/10.sql), [`11.sql`](week7/movies/11.sql), [`12.sql`](week7/movies/12.sql), [`13.sql`](week7/movies/13.sql) | ⭐⭐⭐     |
+
 ## 🔗 Ressources
 
 - [**Cours CS50x 2025**](https://cs50.harvard.edu/x/2025/) - Site officiel
@@ -200,6 +203,16 @@ Développement d'un projet personnel intégrant les compétences acquises, prés
 - **Parsing de données** : Analyse de fichiers CSV, manipulation de chaînes avancée
 - **Profilage génétique** : Algorithmes de correspondance, analyse STR
 - **Debugging Python** : Gestion d'erreurs, optimisation de performance
+
+### Bases de données et SQL
+
+- **SQL fondamental** : Requêtes SELECT, WHERE, ORDER BY, LIMIT
+- **Jointures** : INNER JOIN, LEFT JOIN, relations entre tables
+- **Fonctions d'agrégation** : COUNT, AVG, MIN, MAX, GROUP BY, HAVING
+- **Sous-requêtes** : Requêtes imbriquées, EXISTS, IN
+- **Analyse de données** : Filtrage complexe, tri multi-critères
+- **Conception de schémas** : Relations tables, clés primaires/étrangères
+- **Optimisation** : Index, performance des requêtes
 
 ---
 
